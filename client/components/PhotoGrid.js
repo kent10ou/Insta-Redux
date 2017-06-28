@@ -5,7 +5,7 @@ import { Link } from 'react-router';
 class PhotoGrid extends React.Component {
     render () {
         return (
-            <div className='photo-grid>
+            <div className='photo-grid'>
                 I'm the PhotoGrid
             </div>
         )
