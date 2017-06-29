@@ -34,4 +34,10 @@ action creators: these functions above, when these get fired (dispatched) how to
 
 reducers: once i've added the action -> how do I actually update the data and let react handle the changes
  - Reducers handle the updating of our state in our store and are a fundamental concept in Redux.
+
+foundational to redux!! everytime you dispatch an action -> every single reducer is going to run !
+** every reducer runs everytime there is an action, whether something actually changes in state is up to you! -> use a switch statement
+
+how to pass state down to children? react -> pass as props
+But! in redux: Connect -> connect will allow us to inject that data at whatever level we need it and pass it down. 
 */
